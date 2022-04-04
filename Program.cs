@@ -7,7 +7,7 @@ if (args.Length >= 3 && args.Length%2==1 && args.Distinct().Count() == args.Leng
 }
 else
 {
-    Console.WriteLine("You should call the app with uneven number of arguments");
+    Console.WriteLine("You should call the app with uneven (more than one) number of arguments");
     Console.WriteLine("All of the args should be different");
     Console.WriteLine("Ex: ./Itransition rock paper scissors");
     return;
